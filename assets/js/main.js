@@ -27,15 +27,9 @@ function getCalculator() {
                 let mathAccount = this.display.value
 
                 try{
-                    mathAccount = eval(mathAccount)
-
-                    if(!mathAccount) {
-                        alert('Invalid account')
-                        return
-                    }
-                    
+                    mathAccount = eval(mathAccount);
                     this.display.value = String(mathAccount)
-                } catch(e) {
+                }   catch(e) {
                     alert('Invalid account')
                     return
                 }

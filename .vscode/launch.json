@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "name": "https://calculator-three-jet.vercel.app/",
+            "request": "launch",
+            "url": "https://calculator-three-jet.vercel.app/"
+        }
+    ]
+}
