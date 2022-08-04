@@ -83,7 +83,7 @@ form button:hover {
 }
 
 .btn:hover {
-  background-color: var(--btn-color-dark)
+  background-color: var(--btn-color-dark);
 }
 
 .footer {
@@ -96,6 +96,15 @@ form button:hover {
   height: 35px;
   margin: 0;
   color: white;
+} 
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: var(--btn-color-dark);
 }
 
 img {
